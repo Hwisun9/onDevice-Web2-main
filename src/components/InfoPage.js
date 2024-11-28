@@ -22,7 +22,6 @@ function App() {
             <div className="info-content">
                 <img src={infoImage} alt="image" className="info-image" ></img> 
             </div>
-
         </div>
     );
 }
