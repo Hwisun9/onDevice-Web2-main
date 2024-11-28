@@ -137,7 +137,7 @@ function RegisterPage() {
               <h3 className="section-title">유저 정보 입력</h3>
               <div className="input-group">
                 <label>
-                  아이디<span className="red-star">*</span>
+                  이메일<span className="red-star">*</span>
                   <input
                     type="text"
                     name="id"
