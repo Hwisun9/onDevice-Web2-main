@@ -1,0 +1,68 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.quiz-image {
+    margin-top: 5vh;
+    width: 15%;
+    height: auto;
+}
+
+.quiz-box {
+    background-color: #f9ecbf;
+    padding: 50px;
+    /* 안쪽 여백 */
+    border-radius: 5px;
+    /* 모서리를 둥글게 */
+    font-size: 20px;
+    /* 텍스트 크기 */
+    font-family: 'jua';
+    color: #333;
+    /* 텍스트 색상 */
+    margin-top: 10px;
+    /* 위쪽 간격 */
+}
+
+.quiz-buttons {
+    display: flex;
+    /* 가로 정렬 */
+    gap: 40px;
+    /* 요소 간의 간격 */
+}
+
+
+.button1 {
+    background-color: #ffffff;
+    font-family: 'jua';
+    font-size: 100px;
+    text-shadow: 0px 2px 2px rgba(53, 53, 53, 0.2);
+    border: none;
+    color: #4f9df0;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #ffffff;
+    font-family: 'jua';
+    font-size: 100px;
+    text-shadow: 0px 2px 2px rgba(53, 53, 53, 0.2);
+    border: none;
+    color: #f29090;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #ffffff;
+    color:#3f95f0
+}
+
+.button2:hover {
+    background-color: #ffffff;
+    color:#ef7e7e;
+}

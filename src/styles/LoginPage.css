@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro&display=swap');
+
+/* 전체 레이아웃 */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* 로그인 컨텐츠 위치 조정 */
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* 로고 스타일 */
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: #F1DCB7;
+  margin-bottom: 20px;
+}
+
+.login-content .logo {
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+  align-items: center; /* 가로 중앙 정렬 */
+}
+
+.login-logo-text {
+  margin-top: 10px; /* 텍스트와 이미지 간의 간격 */
+  font-family: 'jaro';
+  color: #F1DCB7;
+  text-shadow: 0px 2px 2px rgba(53, 53, 53, 0.2);
+  letter-spacing: 1px; /* 글자 간격 조정 */
+  font-size: 30px; /* 텍스트 크기 조정 */
+  font-weight: bold; /* 텍스트 굵기 */
+}
+
+/* 로그인 폼 스타일 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+/* 인풋 필드 스타일 */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* 로그인 버튼 스타일 */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #F1DCB7;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+  transition: box-shadow 0.3s ease; /* 그림자 애니메이션 */
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #F1DCB7;
+  color: #F1DCB7;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+  transition: box-shadow 0.3s ease; /* 그림자 애니메이션 */
+}
+
+.register-button-link {
+  display: block; /* Link를 블록 요소로 변경 */
+  width: 100%; /* 버튼이 부모 요소의 너비를 완전히 차지하도록 설정 */
+}
+
+.register-button:hover {
+  background-color: #dcdcdc;
+  color: #725D39;
+}
+
+.login-button:hover {
+  background-color: #cfb890;
+  color: #725D39;
+}
+
+
+/* 소셜 로그인 스타일 */
+.social-login {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icon {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* 소셜 아이콘 이미지 스타일 */
+.icon-image {
+  width: 24px; /* 아이콘 크기 설정 */
+  height: 24px;
+}
+
+/* Divider 스타일 */
+.divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 10px;
+}
+
+/* 소셜 아이콘 스타일 */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
