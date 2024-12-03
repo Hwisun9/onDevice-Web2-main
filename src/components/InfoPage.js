@@ -4,8 +4,7 @@ import '../styles/InfoPage.css'
 
 import { Link } from 'react-router-dom';  // 'Link' import 추가
 
-import image1 from '../assets/images/info_image1.jpg';
-import image2 from '../assets/images/info_image2.jpg';
+import infoImage from '../assets/images/info.png';
 
 function App() {
     return (
@@ -21,10 +20,8 @@ function App() {
             </div>
 
             <div className="info-content">
-                <img src={image1} alt="image1" className="info-image1" ></img>
-                <img src={image2} alt="image2" className="info-image2" ></img> 
+                <img src={infoImage} alt="image" className="info-image" ></img> 
             </div>
-
         </div>
     );
 }

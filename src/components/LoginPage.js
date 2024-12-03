@@ -69,7 +69,7 @@ function LoginPage() {
             <button type="button" className="register-button">REGISTER</button>
           </Link>
 
-          <div className="social-login">
+          {/* <div className="social-login">
             <div className="divider">
               <span>Or log in with</span>
             </div>
@@ -84,7 +84,7 @@ function LoginPage() {
                 <img src={kakaoLogo} alt="Kakao Login" className="icon-image" />
               </button>
             </div>
-          </div>
+          </div> */}
         </form>
       </div>
     </div>
