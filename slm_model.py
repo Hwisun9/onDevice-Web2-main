@@ -106,7 +106,7 @@ def find_similar_example(user_input):
         if similarity > highest_similarity:
             highest_similarity = similarity
             best_match = item
-    return best_match if highest_similarity > 0.5 else None  # 유사도가 50% 이상일 때만 반환
+    return best_match if highest_similarity > 0.4 else None  # 유사도가 50% 이상일 때만 반환
 
 def stt_to_chatbot():
     """
